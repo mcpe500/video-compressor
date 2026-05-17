@@ -1,18 +1,16 @@
 {
   "name": "video-compressor",
-  "version": "1.0.0",
-  "description": "MP4 video compressor - smaller file, better VLC compatibility",
+  "version": "2.0.0",
+  "description": "MP4 video compressor with 5 custom compression algorithms",
   "type": "module",
   "bin": {
     "vcompress": "./src/cli.js"
   },
+  "main": "./src/library.js",
   "scripts": {
     "start": "node src/cli.js"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "dependencies": {},
-  "keywords": ["video", "compress", "ffmpeg", "mp4"],
+  "keywords": ["video", "compress", "ffmpeg", "compression"],
   "license": "MIT"
 }
